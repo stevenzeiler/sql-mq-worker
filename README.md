@@ -30,7 +30,7 @@ This was inspired by [Resque](https://github.com/resque/resque) for Redis, but I
 npm install sql-mq-worker
 ```
 
-That is the original instruction. Whether the package is still on the npm registry was not checked. To use this repo directly instead:
+It is on the npm registry (1.0.0 to 1.0.3, checked 2026-11-20). To use this repo directly instead:
 
 ```sh
 git clone https://github.com/stevenzeiler/sql-mq-worker.git

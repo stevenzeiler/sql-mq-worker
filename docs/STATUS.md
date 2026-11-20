@@ -6,6 +6,7 @@ _Last reviewed: 2026-11-20 (audit pass 02, docs only)._
 
 ## Works (as far as can be told)
 
+- Published on npm: versions 1.0.0 to 1.0.3 (`npm view`, 2026-11-20).
 - `node --check index.js` passes on Node 22: the file is syntactically valid.
 - The design is simple and the code is small enough to read in a minute.
 
@@ -19,7 +20,6 @@ _Last reviewed: 2026-11-20 (audit pass 02, docs only)._
 
 - Nothing was run against a database: no Sequelize 1.x or database was installed for this review.
 - If the job calls its callback with a first argument (an error, say), the worker passes that to its internal loop as the sleep time. Behavior in that case was read from the code, not tested. **(inference)**
-- Whether `sql-mq-worker` is still published on npm was not checked.
 
 ## Next, if it is ever revived
 
